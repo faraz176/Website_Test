@@ -1,0 +1,41 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+{% load static %}
+<h1 style="text-align:center">My Links:</h1>
+
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2cm;
+         
+        border: 2px 2px 2px 2px;
+        
+      }
+      </style>
+
+<br>
+<br>
+<br>
+
+<body>
+
+<h2 style="text-align:center">Datascience portfolio</h2>
+<a href="https://github.com/faraz176/Data_Science_Portfolio">
+    <img src="{% static 'portfolio/github-logo.png' %}", width="150" height="100" class="center ">
+</a>
+</body>
+
+<br>
+<br>
+<br>
+
+<body>
+    <h2 style="text-align:center">Datascience competitions</h2>
+    <a href="https://www.kaggle.com/shuaibahmed176">
+        <img src="{% static 'portfolio/better_kaggle.png' %}", width="200" height="100" class="center ">
+    </a>
+    </body>
+{% endblock %}

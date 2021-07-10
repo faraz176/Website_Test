@@ -1,0 +1,13 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+
+<h1>{{blogs.title}}</h1>
+
+
+
+<h2>{{ blogs.date|date:'M-d-Y'}}</h2>
+
+{{ blogs.description }}
+
+{% endblock %}

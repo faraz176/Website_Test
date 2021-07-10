@@ -1,0 +1,6 @@
+django portfolio project:
+
+User:
+shuaib 
+Pass:
+feather1x

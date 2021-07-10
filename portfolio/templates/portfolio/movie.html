@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<div class="container text-center">
+<h1>Movie Generator</h1>
+
+<form action="{% url 'details' %}">
+    <select name="damovie">
+        <option value="6"> 7.0 Movie Rating</option>
+        <option value="7"> 7.9 Movie Rating</option>
+        
+           
+           
+        
+        
+    </select> Movie Rating
+    
+    <br>
+    <input type="submit" value="Generate Password" class="btn btn-primary">
+</form>
+
+<h1>The Movie is:</h1>
+{{ details }}
+</div>
